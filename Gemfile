@@ -18,6 +18,7 @@ gem 'sqlite3'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 group :development do
   gem 'rspec-rails'
+  gem 'ZenTest'
 end
 
 # Bundle the extra gems:
@@ -32,4 +33,5 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 group :test do
    gem 'rspec'
    gem 'webrat'
+   gem 'ZenTest'
 end
